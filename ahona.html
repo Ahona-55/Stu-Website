@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My website</title>
+    <style>
+        h1 {text-align: center;
+        background-color: rgb(224, 171, 205);}
+        table {
+        border-collapse: collapse;
+        width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+tr:hover {background-color: rgb(235, 231, 231);}
+a:link, a:visited {
+  background-color: #1c1117;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: rgb(200, 117, 145);
+}
+* {
+  box-sizing: border-box;
+}
+
+.column { 
+  float: left;
+  width: 33.33%;
+  padding: 7px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+/* Header/Logo Title */
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+all-browsers {
+  margin: 0;
+  padding: 5px;
+  background-color: lightgray;
+}
+
+.all-browsers > h1, .browser {
+  margin: 10px;
+  padding: 5px;
+}
+
+.browser {
+  background: white;
+}
+
+.browser > h2, p {
+  margin: 4px;
+  font-size: 90%;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+/* @media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+} */
+</style>
+</head>
+<body>
+ <h1>STUDENT TABLE INFO</h1>
+ <div class="topnav">
+  <a class="active" href="#profile">Profile</a>
+  
+  <a href="#result">Result</a>
+  <a href="#class routine">Class Routine</a>
+</div>
+    <table>
+        <tr>
+          <th><center>Name</center></th>
+          <th><center>Father Name</center></th>
+          <th><Center>Mother Name</Center></th>
+          <th><center>Address</center></th>
+          <th><center>Blood Group</center></th>
+          <th><center>portfolio</center></th>
+        </tr>
+        <tr>
+          <td><center>Jannat</center></td>
+          <td><center>Rahim</center></td>
+          <td><center>Ruma</center></td>
+          <td><center>khulna</center></td>
+          <td><center>A+</center></td>
+          <td><center><button><a href="file:///C:/Users/HP/OneDrive/Desktop/website/portfolio.html">Submit 1</a></button></center></td>
+        </tr>
+        <tr>
+          <td><center>Ira</center></td>
+          <td><center>Kamal</center></td>
+          <td><center>Poly</center></td>
+          <td><center>Dhaka</center></td>
+          <td><center>B+</center></td>
+          <td><center><button><a href="file:///C:/Users/HP/OneDrive/Desktop/website/portfolio.html">Submit 2</a></button></center></td>
+        </tr>
+        <tr>
+            <td><center>Hasib</center></td>
+            <td><center>Wasim</center></td>
+            <td><center>Meher</center></td>
+            <td><center>Dhaka</center></td>
+            <td><center>O+</center></td>
+            <td><center><button><a href="file:///C:/Users/HP/OneDrive/Desktop/website/portfolio.html">Submit 3</a></button></center></td>
+          </tr>
+          <tr>
+            <td><center>Ailan</center></td>
+            <td><center>Sarwar</center></td>
+            <td><center>Arzu</center></td>
+            <td><center>Comilla<</center></td>
+            <td><center>A+</center></td>
+            <td><center><button><a href="file:///C:/Users/HP/OneDrive/Desktop/website/portfolio.html">Submit 4</a></button></center></td>tr>
+      </table>
+      <a href="https://www.w3schools.com" target="_blank">Visit W3Schools.com!</a> 
+      <a href="https://classroom.google.com/u/0/h" target="_blank">Visit Classroom!</a> 
+      <a href="https://iums.aust.edu/ums-web/login/" target="_blank">Visit AUST IUMS!</a> 
+      <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">Visit Gmail</a> 
+      <a href="https://aust.edu/" target="_blank">Visit Aust website</a> 
+      <div class="row">
+        <div class="column">
+          <img src="https://lh3.googleusercontent.com/p/AF1QipNQRDMn3Q94M6t2Gp9Zr7sjyMBV8zxIZpewXchV=s1360-w1360-h1020" alt="Snow" style="width:70%">
+        </div>
+        <div class="column">
+          <img src="https://lh3.googleusercontent.com/p/AF1QipNnsd_DYZpXTVJRcaVYV4aj0u-kc9n2NnfWWwk9=s1360-w1360-h1020" alt="Forest" style="width:70%">
+        </div>
+        <div class="column">
+          <img src="https://lh3.googleusercontent.com/p/AF1QipMMLIC5FFTD7qbi4H-j_tFeo48yWL2ycO_tYaJK=s1360-w1360-h1020" alt="Mountains" style="width:70%">
+        </div>
+      </div>
+       <div style="padding-left:16px"> 
+      </div>
+
+<article class="all-browsers">
+
+  <article class="browser">
+    <h2>Profile</h2>
+    <p>In stuent profile,there are all the details about students such as - their name,id,semester etc.</p>
+  </article>
+  <article class="browser">
+    <h2>Result</h2>
+    <p>In result section,there are semester wise results of the students </p>
+  </article>
+  <article class="browser">
+    <h2>Class routine</h2>
+    <p>There are all the class routines of all departments.</p>
+  </article>
+</article>
+
+<footer>
+  <p>Author: Hege Refsnes<br>
+  <a href="https://iums.aust.edu/ums-web/iums/#/studentProfile">profile.com</a></p>
+</footer>
+
+
+
+
+</body>
+</html>
